@@ -63,7 +63,7 @@ HLT;
 ```
 mov AL,53H;
 mov BL,24H;
-mul AL,BL;
+mul BL;
 HLT;
 ```
  ## Output  
@@ -73,7 +73,7 @@ HLT;
 ```
 mov AL,53H;
 mov BL,24H;
-Div AL,BL;
+Div BL;
 HLT;
 ```
 ## Output  
